@@ -10,19 +10,17 @@
     </a>
 </h1>
 
-<h3 align="center">All-in-one NFT distribution platform</h3>
+<h3 align="center">Blockchain-enabled customer loyalty platform</h3>
 
 ## ⭐️ Features ⭐️
 
 Versify comes with a set of building blocks that allow you to create amazing digital commerce experiences, below is a list of some of the features that Versify come with out of the box:
 
-- **Headless**: Versify is a highly customizable NFT API which means that you may use any presentation layer such as a website, app, chatbots, etc.
-- **Orders** come with all the functionality necessary to perform powerful customer service operations with ease.
-- **Carts** allow customers to collect NFTs for purchase, add wallet details, and complete payments.
-- **Products** come with relevant fields for minting, stock keeping, and sales.
+- **Headless**: Versify is a highly customizable Loyalty API which means that you may use any presentation layer such as a website, app, chatbots, etc.
+- **Assets** come with relevant fields for minting, burning, and transferring.
+- **Offers & Rewards** come with all the functionality necessary to perform powerful customer loyalty operations with ease.
 - **Payments API** makes it easy to integrate with any payment provider by creating payment plugins, we will soon support Stripe.
-- **Notification API** allow integrations with email providers, chatbots, Slack channels, etc.
-- **Wallet Login** to give customers a way of managing their NFTs, viewing their orders, and saving payment details.
+- **Wallet** to give customers a way of managing their assets, rewards, transactions, and saving payment details.
 
 ---
 
@@ -30,11 +28,12 @@ Versify comes with a set of building blocks that allow you to create amazing dig
     Online Documentation
 </h2>
 
-<p>To view the available online documentation files please visit the following link:
-<a href="https://app.theneo.io/versify/versify/API_Reference" title="Click to view the online documentation">
-    API Reference
+<a href="https://docs.versifylabs.com" title="Click to view the online documentation">
+    Product Docs
 </a>
-</p>
+<a href="https://api.versifylabs.com/docs" title="Click to view the online documentation">
+    API Docs
+</a>
 
 ---
 
