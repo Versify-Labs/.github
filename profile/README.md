@@ -38,6 +38,28 @@ Versify comes with a set of building blocks that allow you to create amazing dig
 ---
 
 <h2>
+    Git Workflow
+</h2>
+<p>
+    <ul>
+        <li><b>main</b> is the production branch</li>
+        <li><b>dev</b> is the development branch</li>
+        <li>all <b>feature</b> branches will branch from <b>dev</b> and the name (as well as <b>commit</b> messages) will start with either <b>build</b>, <b>chore</b>, <b>ci</b>, <b>docs</b>, <b>feat</b>, <b>fix</b>, <b>perf</b>, <b>refactor</b>, <b>revert</b>, <b>style</b>, or <b>test</li>
+        <li>once a branch is thoroughly tested it will be merged into the <b>dev</b> branch</li>
+        <li>once the <b>dev</b> branch is ready to go to production it will be moved into a <b>release</b> branch in the format <b>release/X.X.X</b></li>
+        <li>once the <b>release</b> branch is ready it will be merged into both <b>main</b> and <b>dev</b> and the <b>main</b> branch will be tagged with the <b>release</b> number</li>
+        <li>the <b>release</b> number will follow the format of <b>MAJOR.MINOR.PATCH</b></li>
+        <li>the <b>release</b> branch will then be deleted</li>
+        <li>the cycle will continue</li>
+        <li>any <b>fix</b> branches can be (if necessary) created directly from <b>main</b></li>
+        <li>any <b>docs</b> branches can be (if necessary) created directly from <b>main</b> or a <b>release</b> branch</li>
+        <li>for a more detailed description please read <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" title="Git Workflow">Git Workflow</li>
+    </ul>
+</p>
+
+---
+
+<h2>
     Technical Support
 </h2>
 <p>
